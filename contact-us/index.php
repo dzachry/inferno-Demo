@@ -44,7 +44,6 @@ window.onload=function(){
 				Union Avenue at Belvedere<br />
 				Suite 107<br />
 				Memphis, TN 38104<br>
-				901-123-1324<br>
 				901-123-1324</div>
 			<div id="largeimage"><!-- LARGE IMAGE FLASH --></div>
 			<div id="main">
