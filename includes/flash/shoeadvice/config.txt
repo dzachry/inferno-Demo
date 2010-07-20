@@ -1,0 +1,1 @@
+total=8&hold=5&advance=random&type1=png&type2=png&type3=png&type4=png&type5=png&type6=png&type7=png&type8=png

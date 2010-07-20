@@ -1,0 +1,11 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /peria/web/v2/news/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /peria/web/v2/news/index.php [L]
+</IfModule>
+
+# END WordPress

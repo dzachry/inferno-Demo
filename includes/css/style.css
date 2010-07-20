@@ -1,0 +1,234 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+body {
+	background: #d6ceb8;
+	font: 62.5%/.75em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #333;
+	}
+img {
+	display: block;
+	border: 0;
+	}
+a:link, a:visited {
+	color: #e44b98;
+	}
+#wrap {
+	margin: 10px auto;
+	border-top: 10px solid #915c3e;
+	width: 850px;
+	text-align: left;
+	}
+#container {
+	border-top: 6px solid #e44197;
+	background: #e36d9e url(../img/bg.gif);
+	}
+#header a:link, #header a:visited {
+	color: #fff;
+	}
+/* MENU */
+#header ul {
+	list-style: none;
+	}
+#header li {
+	display: inline;
+	}
+#header li a {
+	float: left;
+	height: 72px;
+	background: url(../img/menu.gif) 0 0 no-repeat;
+	text-indent: -9999px;
+	outline: none;
+	}
+#header li#m-home a {
+	width: 97px;
+	background-position: 0 0;
+	}
+#header li#m-aboutus a {
+	width: 108px;
+	background-position: -97px 0;
+	}
+#header li#m-shoes a {
+	width: 82px;
+	background-position: -205px 0;
+	}
+#header li#m-handbags a {
+	width: 117px;
+	background-position: -287px 0;
+	}
+#header li#m-accessories a {
+	width: 128px;
+	background-position: -404px 0;
+	}
+#header li#m-contactus a {
+	width: 133px;
+	background-position: -370px 0;
+	}
+#header li#m-brands a {
+	width: 90px;
+	background-position: -205px 0;
+	}
+#header li#m-news a {
+	width: 75px;
+	background-position: -295px 0;
+	}	
+/* END MENU */
+#header h1 {
+	float: right;
+	width: 185px;
+	height: 72px;
+	background: url(../img/logo.gif);
+	text-indent: -9999px;
+	}
+#home #header h1 {
+	background: none;
+	}
+#content {
+	clear: both;
+	position: relative;
+	background: #fff url(../img/content.gif) bottom right no-repeat;
+	height: 428px;
+	}
+#home #content {
+	background: transparent url(../img/homesplash.gif) bottom right no-repeat;
+	}
+#accent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	}
+#detail {
+	position: absolute;
+	top: 45px;
+	left: 655px;
+	width: 150px;
+	font-size: 1.2em;
+	line-height: 1.25em;
+	}
+#detail img {
+	margin-bottom: 20px;
+	}
+#detail dl {
+	padding-bottom: 10px;
+	}
+#detail dt {
+	font-weight: bold;
+	font-size: 1.125em;
+	color: #e34197;
+	display: inline;
+	}
+#detail dd {
+	display: inline;
+	}
+#main img {
+	margin-left: 270px;
+	}
+#dock {
+	position: absolute;
+	top: 323px;
+	left: 0;
+	width: 850px;
+	height: 105px;
+	background: url(../img/dock.png) top right repeat-x;
+	}
+#dock ul {
+	position: relative;
+	margin-left: 242px;
+	height: 105px;
+	list-style: none;
+	text-align: center;
+	white-space: nowrap;
+	}
+#dock li {
+	display: inline;
+	position: relative;
+	}
+#dock li img {
+	border: 0;
+	margin: 0;
+	display: inline;
+	vertical-align: top;
+	position: relative;
+	z-index: 10000;
+	}
+#contentarea {
+	position: absolute;
+	top: 45px;
+	left: 285px;
+	padding: 0 10px 10px 0;
+	width: 340px;
+	height: 240px;
+	overflow: auto;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	}
+#contentarea.full {
+	width: 495px;
+	}
+h2 {
+	margin-bottom: 10px;
+	color: #915c3e;
+	font-weight: normal;
+	font-size: 1.5em;
+	line-height: 1.25em;
+	}
+h2 a:link, h2 a:visited {
+	color: #915c3e;
+	text-decoration: none;
+	}	
+h3 {
+	margin-top: 50px;
+	font-size: 1.25em;
+	color: #e34197;
+	}
+#contentarea p, #contentarea dl {
+	padding-bottom: 10px;
+	}
+#contentarea dt {
+	font-weight: bold;
+	float: left;
+	width: 75px;
+	clear: left;
+	}
+#contentarea dd {
+	margin-left: 80px;
+	}
+#footer {
+	clear: both;
+	width: 850px;
+	height: 60px;
+	background: url(../img/footer.gif) no-repeat;
+	text-indent: -9999px;
+	color: #fff;
+	}
+#home #footer {
+	background: url(../img/footer-home.gif) no-repeat;
+	text-indent: 0px;
+}
+/* NEWS */
+.entry {
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+	border-bottom: 1px dotted #e44b98;
+}
+
+.entry h3 {
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+
+.entry h3 a:link, .entry h3 a:visited {
+	margin: 0px;
+	padding: 0px;
+	color: #e864a6;
+	text-decoration: none;
+}
+
+.entry h4 {
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+	font-style: italic;
+	font-size: .85em;
+}
